@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Фестиваль</string>
+    <string name="action_settings">Дополнительно</string>
+    <string name="drawer_item_home">Мероприятия</string>
+    <string name="drawer_item_free_play">Места проведения мероприятий</string>
+    <string name="drawer_item_locations">Локации мероприятий</string>
+    <string name="drawer_item_custom">Custom</string>
+    <string name="drawer_item_settings">Дополнительно</string>
+    <string name="drawer_item_help">Помощь</string>
+    <string name="drawer_item_contact">Контакты</string>
+    <string name="api">KHG04SR6CBHiNiZMB2ZpZQ==</string>
+    <string name="anytext">%1$s</string>
+
+</resources>

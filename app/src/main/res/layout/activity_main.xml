@@ -1,0 +1,157 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#BCBCBC"
+    tools:context=".MainActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:elevation="4dp"
+        android:foregroundGravity="center_vertical"
+        android:gravity="center"
+        android:minHeight="?attr/actionBarSize"
+        android:transitionName="actionBar"
+        app:buttonGravity="center_vertical" />
+
+    <LinearLayout
+        android:id="@+id/toolbarLL"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/gradienttoolbar"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textheader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/qsand"
+            android:gravity="center"
+            android:text="ОТКРЫТЬ МЕНЮ"
+            android:textColor="#FFFFFF" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/titlet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/toolbarLL"
+        android:fontFamily="@font/qsand"
+        android:foregroundGravity="center"
+        android:gravity="center|center_horizontal"
+        android:textAlignment="gravity"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/titlet"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp">
+
+        <LinearLayout
+            android:id="@+id/locationLL"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:visibility="visible">
+
+            <ListView
+                android:id="@+id/location"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/darckback"
+                android:divider="@color/white"
+                android:dividerHeight="1dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <ListView
+                    android:id="@+id/locationinfo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:divider="@color/black"
+                    android:dividerHeight="1dp"
+                    android:visibility="visible" />
+
+                <Button
+                    android:id="@+id/createnewloaction"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/okbut"
+                    android:fontFamily="@font/qsand"
+                    android:text="Создать\nновый"
+                    android:textColor="#000000" />
+
+                <Button
+                    android:id="@+id/areas"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/okbut"
+                    android:fontFamily="@font/qsand"
+                    android:text="Площадки"
+                    android:textColor="#000000" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/eventLL"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+            <ListView
+                android:id="@+id/event"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/darckback"
+                android:divider="@color/white"
+                android:dividerHeight="1dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <ListView
+                    android:id="@+id/eventinfo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:divider="@color/black"
+                    android:dividerHeight="1dp"
+                    android:visibility="visible" />
+
+                <Button
+                    android:id="@+id/createnewevent"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/okbut"
+                    android:fontFamily="@font/qsand"
+                    android:text="Создать\nновое"
+                    android:textColor="#000000" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

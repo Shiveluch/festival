@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/projects/festival/app/src/main/res/drawable/darckback.xml" value="0.1" />
+        <entry key="..\:/projects/festival/app/src/main/res/drawable/gradienttoolbar.xml" value="0.1" />
+        <entry key="..\:/projects/festival/app/src/main/res/drawable/greystroke.xml" value="0.1" />
+        <entry key="..\:/projects/festival/app/src/main/res/drawable/shadowback.xml" value="0.1" />
+        <entry key="..\:/projects/festival/app/src/main/res/drawable/stroke.xml" value="0.1" />
+        <entry key="..\:/projects/festival/app/src/main/res/layout/activity_main.xml" value="0.22991071428571427" />
+        <entry key="..\:/projects/festival/app/src/main/res/layout/changedatadialog.xml" value="0.33" />
+        <entry key="..\:/projects/festival/app/src/main/res/layout/drawer_header.xml" value="0.25" />
+        <entry key="..\:/projects/festival/app/src/main/res/layout/locationadapter.xml" value="0.25" />
+        <entry key="..\:/projects/festival/app/src/main/res/layout/locationinfoadapter.xml" value="0.33" />
+        <entry key="..\:/projects/festival/app/src/main/res/layout/uploadmapdialog.xml" value="0.25" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
